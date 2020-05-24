@@ -86,6 +86,7 @@
                 margin: 4px 2px;
                 cursor: pointer;
                 width: 100%;
+                
                 }
            
 
@@ -103,15 +104,13 @@
             <p id="description"> Thank you for taking the time to help us improve our organization</p>
 
             <form id="survey-form">
-                <label for="name"> Name </label><br>
+                <label id="name-label" for="name"> Name </label><br>
                 <input type="text" id="name" name="name" placeholder="Enter your name"><br>
-                <label for="email">Enter Email</label><br>
+                <label id="email-label" for="email">Enter Email</label><br>
                 <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your email"><br>
-                <label for= "age"> Age </label><br>
+                <label id="number-label" for= "age"> Age </label><br>
                 <input type="number" id="number" name="number" min="18" max="100" placeholder="Enter your age"><br>
-                <label id="name-label"></label>
-                <label id="email-label"></label>
-                <label id="number-label"></label>
+                
 
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label><br>
